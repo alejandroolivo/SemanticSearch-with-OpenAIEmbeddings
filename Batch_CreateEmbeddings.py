@@ -4,9 +4,14 @@ import numpy as np
 from getpass import getpass
 from openai.embeddings_utils import get_embedding
 import os
+import configparser
+
+# Read config
+config = configparser.ConfigParser()
+config.read('config.ini')
 
 # Write KEY for openAI API
-openai.api_key = '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' # getpass()
+os.environ['OPENAI_API_KEY'] = config['openai']['api_key']
 
 # Define the root directory path
 rootdir = '.\Data\Tags Batches'
