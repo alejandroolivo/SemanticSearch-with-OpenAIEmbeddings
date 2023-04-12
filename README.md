@@ -45,8 +45,11 @@ Obtain an openAI API key and add it to the config.ini file.
 Run the scripts in the following order:
 
   python ExtractTags.py
+  
   python CreateEmbeddings.py
+  
   python SemanticSearch.py
+  
   python TestScript.py
 
 The generated CSV files can be found in the Data directory.
