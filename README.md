@@ -27,7 +27,7 @@ This script performs semantic search on a CSV file containing word embeddings of
 3. CreateEmbeddings.py
 This script creates word embeddings for the tags extracted in ExtractTags.py. The script uses the openAI API to generate word embeddings for each tag and saves them to a CSV file.
 
-4. TestScript.py
+4. LlamaTest.py
 This script demonstrates the usage of the llama_index package for performing semantic search. The script loads a directory of text documents, creates a GPT-based vector index for the documents, and queries the index for a given search term.
 
 5. config.ini
