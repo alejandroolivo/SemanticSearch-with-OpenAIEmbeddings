@@ -3,9 +3,7 @@
 # Learn more about .gitignore:
 #     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
-
-Data/Tags.csv
-Data/Tags Batches/
+Screenshots/
 
 # Node artifact files
 node_modules/
