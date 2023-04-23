@@ -15,7 +15,7 @@ To run the scripts, you need to have Python 3 installed on your machine. You can
 
 You can install these packages using the following command:
 
-  'pip install openai pandas numpy configparser getpass llama_index'
+  `pip install openai pandas numpy configparser getpass llama_index`
   
 ## Script Description
 1. ExtractTags.py
@@ -58,4 +58,4 @@ To use the scripts, follow these steps:
 This project provides a simple demonstration of how to perform semantic search using openAI API and Python. The project can be extended to handle large-scale text datasets and more complex NLP tasks.
 
 ## License
-
+This project is licensed under the Apache License 2.0. For more information, please refer to the [LICENSE](LICENSE) file in the root of this repository.
